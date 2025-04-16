@@ -1,0 +1,46 @@
+# ✅ Security+ SY0-701 Objectives Checklist
+
+This checklist tracks your progress across all official CompTIA Security+ (SY0-701) exam objectives. Use this to mark what you've studied and identify where to focus next.
+
+---
+
+## 🔐 1. General Security Concepts
+- [ ] Compare Security Roles and Security Controls
+- [ ] Explain Threat Actors and Threat Intelligence
+- [ ] Identify Social Engineering and Malware
+
+## 🧪 2. Threats, Vulnerabilities, and Assessments
+- [ ] Perform Security Assessments
+- [ ] Summarize Basic Cryptographic Concepts
+- [ ] Implement Public Key Infrastructure (PKI)
+- [ ] Summarize Risk Management Concepts
+
+## 🔑 3. Identity and Access Management
+- [ ] Implement Authentication Controls
+- [ ] Implement Identity and Account Management Controls
+
+## 🌐 4. Network and Host Security
+- [ ] Implement Secure Network Designs
+- [ ] Implement Network Security Appliances
+- [ ] Implement Secure Network Protocols
+- [ ] Implement Host Security Solutions
+- [ ] Implement Secure Mobile Solutions
+
+## ☁️ 5. Application and Cloud Security
+- [ ] Summarize Secure Application Concepts
+- [ ] Implement Secure Cloud Solutions
+
+## 📊 6. Security Program Management and Oversight
+- [ ] Explain Data Privacy and Protection Concepts
+- [ ] Perform Incident Response
+- [ ] Explain Digital Forensics
+- [ ] Implement Cybersecurity Resilience
+- [ ] Explain Physical Security
+
+---
+
+### 💡 Tip:
+Use `- [x]` for completed topics and `- [ ]` for those you still need to study. You can update this file as you work through each domain.
+
+> "Progress over perfection. Study smart, and check 'em off one by one."
+
