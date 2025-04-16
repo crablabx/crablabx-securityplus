@@ -1,46 +1,72 @@
-# 🔐 Cheatsheet: Hashing Algorithms
+# 🧠 Cheatsheet: Security+ Acronyms
 
-This cheatsheet highlights commonly tested hashing algorithms on the CompTIA Security+ (SY0-701) exam. Hashes are one-way functions used to verify data integrity.
-
----
-
-## 🧬 What Is Hashing?
-- A **one-way function** that converts input data into a fixed-size string (digest)
-- Used for **integrity checking**, not encryption
-- Hashes should be:
-  - **Deterministic** (same input → same output)
-  - **Irreversible** (cannot reverse the output)
-  - **Collision-resistant** (hard to produce the same hash from two inputs)
+This cheatsheet contains commonly tested acronyms you’ll encounter on the CompTIA Security+ (SY0-701) exam. Many questions assume you understand these terms without definition.
 
 ---
 
-## 🧪 Common Hashing Algorithms
-
-| Algorithm | Digest Size | Use Case |
-|----------|--------------|----------|
-| **MD5** | 128-bit | Deprecated – used for checksums, file validation |
-| **SHA-1** | 160-bit | Weak – legacy systems only |
-| **SHA-2** | 224/256/384/512-bit | Strong – widely used for digital signatures, SSL |
-| **SHA-256** | 256-bit | Most common variant of SHA-2 |
-| **SHA-3** | Variable | Latest standard – less common in practice yet |
-| **HMAC** | Varies | Hash + secret key – used for data integrity & authentication |
-
----
-
-## 🛡️ Real-World Usage
-- **Passwords** → Hash and compare during login
-- **File integrity** → Compare hashes after download
-- **Digital signatures** → Prove authenticity
-- **HMAC** → API key validation and message integrity
+## 🔐 Authentication & Access
+| Acronym | Meaning |
+|---------|---------|
+| AAA | Authentication, Authorization, Accounting |
+| ACL | Access Control List |
+| MFA | Multi-Factor Authentication |
+| SSO | Single Sign-On |
+| RBAC | Role-Based Access Control |
+| DAC | Discretionary Access Control |
+| MAC | Mandatory Access Control |
 
 ---
 
-## 📌 Study Tips
-- Know the difference between **encryption** and **hashing**
-- MD5 and SHA-1 are considered **broken** (vulnerable to collisions)
-- SHA-256 and HMAC are most likely to show up on the test
+## 🌐 Network & Protocols
+| Acronym | Meaning |
+|---------|---------|
+| IP | Internet Protocol |
+| TCP | Transmission Control Protocol |
+| UDP | User Datagram Protocol |
+| DNS | Domain Name System |
+| DHCP | Dynamic Host Configuration Protocol |
+| VPN | Virtual Private Network |
+| VLAN | Virtual Local Area Network |
 
 ---
 
-> "Encryption hides data. Hashing proves it hasn’t changed."
+## 🛡️ Security Tools & Concepts
+| Acronym | Meaning |
+|---------|---------|
+| AV | Antivirus |
+| IDS | Intrusion Detection System |
+| IPS | Intrusion Prevention System |
+| DLP | Data Loss Prevention |
+| SIEM | Security Info & Event Management |
+| EDR | Endpoint Detection & Response |
+| FIM | File Integrity Monitoring |
+
+---
+
+## 📜 Certificates & Crypto
+| Acronym | Meaning |
+|---------|---------|
+| CA | Certificate Authority |
+| CSR | Certificate Signing Request |
+| PKI | Public Key Infrastructure |
+| RSA | Rivest-Shamir-Adleman (asymmetric encryption) |
+| AES | Advanced Encryption Standard (symmetric) |
+| SHA | Secure Hash Algorithm |
+| HMAC | Hashed Message Authentication Code |
+
+---
+
+## 📊 Compliance & Frameworks
+| Acronym | Meaning |
+|---------|---------|
+| HIPAA | Health Insurance Portability and Accountability Act |
+| PCI-DSS | Payment Card Industry – Data Security Standard |
+| GDPR | General Data Protection Regulation |
+| NIST | National Institute of Standards and Technology |
+| FISMA | Federal Information Security Management Act |
+| SOC | Service Organization Control (audit reports) |
+
+---
+
+> "Don’t just memorize acronyms — know what they do and where they apply."
 
